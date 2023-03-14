@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <ul className="nav nav-tabs bg-body-tertiary text-align-center">
+    <ul className="nav nav-tabs bg-dark text-align-center">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -14,16 +14,6 @@ function Navbar() {
           }
         >
           Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          About
         </NavLink>
       </li>
       <li className="nav-item">
@@ -45,16 +35,6 @@ function Navbar() {
           }
         >
           Contact
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
         </NavLink>
       </li>
     </ul>
