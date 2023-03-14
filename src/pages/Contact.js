@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <p>Feel free to contact me via email.  You could check out my profiles on LinkedIn and GitHub or my <a href=".assets/CV.pdf"><b>CV</b></a>!</p>
+      <p>Feel free to contact me via email.  You could check out my profiles on LinkedIn and GitHub or download my <a href=".assets/CV.pdf"><b>CV</b></a>!</p>
       <ul>
         <li className="list-inline-item mr-3">
           <a href="https://github.com/digitinok" target="_blank" rel="noreferrer">
