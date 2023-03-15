@@ -2,7 +2,7 @@ import React, { Component }  from "react";
 import Card from "../components/Card";
 import projects from "../projects.json";
 
-class App extends Component {
+class Projects extends Component {
   // Setting this.state.projects to the projects json array
   state = {
     projects
@@ -15,7 +15,7 @@ class App extends Component {
     this.setState({ projects });
   };
 
-function Projects() {
+  render() {
   return (
     <div>
       <h1>Amazing Projects</h1>
@@ -37,5 +37,5 @@ function Projects() {
     </div>
   );
 }
-
+}
 export default Projects;

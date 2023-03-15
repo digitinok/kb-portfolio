@@ -2,9 +2,8 @@
   {
     "id": 1,
     "name": "TravelBuddy",
-    "image":
-      ".public/TravelBuddy.png",
-    "alt": "TravelBuddy screenshot"
+    "image": ".public/TravelBuddy.png",
+    "alt": "TravelBuddy screenshot",
     "repository": "https://github.com/digitinok/TravelBuddy",
     "link": "https://moxyk.github.io/TravelBuddy",
     "description": "Map, Weather, News and Currency exchange for your next travel destination"
@@ -38,7 +37,7 @@
   },
   {
     "id": 5,
-    "name": "password-generator",
+    "name": "Password Generator",
     "image": ".public/password-generator.png",
     "alt": "password generator screenshot",
     "repository": "https://github.com/digitinok/password-generator",
