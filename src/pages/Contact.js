@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h2 className="m-5">Contact Me</h2>
       <p>Feel free to contact me via email.  
         You could check out my profiles on LinkedIn and GitHub or download
          my  <a href="assets/CV.pdf"><b>CV</b></a>!

@@ -19,7 +19,7 @@ class Projects extends Component {
   render() {
   return (
     <div>
-      <h1 className="m-5">Projects I have done</h1>
+      <h2 className="m-5">Projects I have done</h2>
       <div className="Container">
         <div className="row justify-content-center">
           {this.state.projects.map(project => (

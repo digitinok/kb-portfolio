@@ -3,15 +3,16 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>Hello</h1>
-      <h2>It's all about me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-          consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-          sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-          gravida. Duis eget vestibulum quam, ut porttitor sem. 
-        </p>
+      <h2 className="m-5">Konstanze Bartsch</h2>
+      <div className="row">
+        <div className="col">
+          <image src="public/me.png" alt="me"></image>
+        </div>
+      </div>
+      <div className="col text-start m-3">
+        <h4> Software Engineer</h4>
+        <p> I'm a Software Engineer working in the automotive industry.</p>
+      </div>
     </div>
   );
 }
