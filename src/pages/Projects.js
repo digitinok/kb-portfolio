@@ -1,6 +1,7 @@
 import React, { Component }  from "react";
 import Card from "../components/Card";
 import projects from "../projects.json";
+//import "../assets/TravelBuddy.png";
 
 class Projects extends Component {
   // Setting this.state.projects to the projects json array
@@ -18,22 +19,24 @@ class Projects extends Component {
   render() {
   return (
     <div>
-      <h1>Amazing Projects</h1>
-      <h2>All the stuff I've done?</h2>
-      {this.state.projects.map(project => (
-          <Card
-            removeProject={this.removeproject}
-            id={project.id}
-            key={project.id}
-            name={project.name}
-            image={project.image}
-            alt={project.alt}
-            repository={project.repository}
-            link={project.link}
-            description={project.description}
-          />
-        ))}
-
+      <h1 className="m-5">Projects I have done</h1>
+      <div className="Container">
+        <div className="row justify-content-center">
+          {this.state.projects.map(project => (
+            <Card
+              removeProject={this.removeproject}
+              id={project.id}
+              key={project.id}
+              name={project.name}
+              image={project.image}
+              alt={project.alt}
+              repository={project.repository}
+              link={project.link}
+              description={project.description}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

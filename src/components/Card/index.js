@@ -3,20 +3,23 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="card col-lg-3 col-md-5 col-sm-11">
       <div className="img-container">
         <img alt={props.alt} src={props.image} />
       </div>
       <div className="content">
         <ul>
+        <li>
+            <strong>{props.name}</strong> 
+          </li>          
           <li>
-            <strong>Name:</strong> {props.name}
+            {props.description}
           </li>
           <li>
-            <strong>Repository:</strong> {props.repository}
+            <strong>Repository: </strong> <a href={props.repository}>{props.repository}</a>
           </li>
           <li>
-            <strong> {props.description}</strong> {props.location}
+            <strong>Deployed Page: </strong><a href={props.link}>{props.link}</a> 
           </li>
         </ul>
       </div>

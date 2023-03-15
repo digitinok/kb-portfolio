@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "TravelBuddy",
-    "image": ".public/TravelBuddy.png",
+    "image": "public/TravelBuddy.png",
     "alt": "TravelBuddy screenshot",
     "repository": "https://github.com/digitinok/TravelBuddy",
     "link": "https://moxyk.github.io/TravelBuddy",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Weather Dashboard",
-    "image": ".public/weather-dashboard.png",
+    "image": "public/weather-dashboard.png",
     "alt": "weather dashboard screenshot",
     "repository": "https://github.com/digitinok/weather-dashboard/",
     "link": "https://digitinok.github.io/weather-dashboard/",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Daily Planner App",
-    "image": ".public/daily-planner.png",
+    "image": "public/daily-planner.png",
     "alt": "daily planner app screenshot",
     "repository": "https://github.com/digitinok/daily-planner",
     "link": "https://digitinok.github.io/daily-planner/",
