@@ -7,7 +7,7 @@ function Navbar() {
     <ul className="nav nav-tabs bg-dark text-align-center">
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="/kb-portfolio"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -18,7 +18,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="projects"
+          to="/kb-portfolio/projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -28,7 +28,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="contact"
+          to="/kb-portfolio/contact"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'

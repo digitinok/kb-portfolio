@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div className="card col-lg-3 col-md-5 col-sm-11">
       <div className="img-container">
-        <img alt={props.alt} src={props.image} />
+        <img alt={props.alt} src={require("../../assets/TravelBuddy.png")} /> 
       </div>
       <div className="content">
         <ul>

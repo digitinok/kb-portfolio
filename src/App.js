@@ -22,9 +22,9 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          <Route path="Projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/kb-portfolio" element={<Home />} />
+          <Route path="/kb-portfolio/projects" element={<Projects />} />
+          <Route path="/kb-portfolio/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

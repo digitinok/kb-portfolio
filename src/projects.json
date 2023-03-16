@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "TravelBuddy",
-    "image": "public/TravelBuddy.png",
+    "image": "../../assets/TravelBuddy.png",
     "alt": "TravelBuddy screenshot",
     "repository": "https://github.com/digitinok/TravelBuddy",
     "link": "https://moxyk.github.io/TravelBuddy",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Weather Dashboard",
-    "image": "public/weather-dashboard.png",
+    "image": "../../assets/weather-dashboard.png",
     "alt": "weather dashboard screenshot",
     "repository": "https://github.com/digitinok/weather-dashboard/",
     "link": "https://digitinok.github.io/weather-dashboard/",
@@ -20,16 +20,16 @@
   {
     "id": 3,
     "name": "Daily Planner App",
-    "image": "public/daily-planner.png",
+    "image": "../../assets/daily-planner.png",
     "alt": "daily planner app screenshot",
     "repository": "https://github.com/digitinok/daily-planner",
     "link": "https://digitinok.github.io/daily-planner/",
-    "description": "Plan you day to success!"
+    "description": "Plan your day to succeed!"
   },
   {
     "id": 4,
     "name": "Coding Quiz",
-    "image": ".public/coding-quiz.png",
+    "image": "../../assets/coding-quiz.png",
     "alt": "coding quiz screenshot",
     "repository": "https://github.com/digitinok/coding-quiz",
     "link": "https://digitinok.github.io/coding-quiz",
@@ -38,19 +38,19 @@
   {
     "id": 5,
     "name": "Password Generator",
-    "image": ".public/password-generator.png",
+    "image": "../../assets/password-generator.png",
     "alt": "password generator screenshot",
     "repository": "https://github.com/digitinok/password-generator",
     "link": "https://digitinok.github.io/password-generator",
-    "description": "Generate a strong Password"
+    "description": "Generate a Strong Password"
   },
   {
     "id": 6,
     "name": "Readme Generator",
-    "image": ".public/awesome-readme-generator.png",
+    "image": "../../assets/awesome-readme-generator.png",
     "alt": "readme generator screenshot",
     "repository": "https://github.com/digitinok/awesome-readme-generator",
     "link": "https://github.com/digitinok/awesome-readme-generator",
-    "description": "Generate a Readme for your next project"
+    "description": "Generate an awesome Project Readme"
   }
 ]
