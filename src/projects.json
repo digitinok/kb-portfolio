@@ -15,7 +15,7 @@
     "alt": "weather dashboard screenshot",
     "repository": "https://github.com/digitinok/weather-dashboard/",
     "link": "https://digitinok.github.io/weather-dashboard/",
-    "description": "5-Day Weather Forecast"
+    "description": "5-Day Weather Forecast, whereever you are or want to be."
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "alt": "daily planner app screenshot",
     "repository": "https://github.com/digitinok/daily-planner",
     "link": "https://digitinok.github.io/daily-planner/",
-    "description": "Plan your day to succeed!"
+    "description": "Plan your day to succeed! A simple hourly planner to organise your day."
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "alt": "coding quiz screenshot",
     "repository": "https://github.com/digitinok/coding-quiz",
     "link": "https://digitinok.github.io/coding-quiz",
-    "description": "Test your Javascript knowledge"
+    "description": "Take the Quiz and test your Javascript knowledge."
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "alt": "password generator screenshot",
     "repository": "https://github.com/digitinok/password-generator",
     "link": "https://digitinok.github.io/password-generator",
-    "description": "Generate a Strong Password"
+    "description": "Can't think of a new password for all your online accounts? Generate a Strong Password!"
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "alt": "readme generator screenshot",
     "repository": "https://github.com/digitinok/awesome-readme-generator",
     "link": "https://github.com/digitinok/awesome-readme-generator",
-    "description": "Generate an awesome Project Readme"
+    "description": "Every project needs a quality Readme file to succeed. Generate an awesome Project Readme!"
   }
 ]
