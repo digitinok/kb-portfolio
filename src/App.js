@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -25,9 +26,9 @@ function App() {
           <Route path="/kb-portfolio" element={<Home />} />
           <Route path="/kb-portfolio/projects" element={<Projects />} />
           <Route path="/kb-portfolio/contact" element={<Contact />} />
-
           <Route path="*" element={<NoPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
     </div>
