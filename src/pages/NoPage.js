@@ -9,7 +9,7 @@ function NoPage() {
          Please return to the home page.
       </p>
       <button className="rounded-3 text-bg-dark px-2">
-        <Link to={'/kb-portfolio'}>Back to Homepage</Link>
+        <Link to={'/'}>Back to Homepage</Link>
       </button>
     </div>
       );

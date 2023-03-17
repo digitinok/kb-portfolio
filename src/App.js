@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       
-      <Router>
+      <Router basename="/kb-portfolio">
       <div>
         <Header />
         <Navbar />
@@ -23,9 +23,10 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/kb-portfolio" element={<Home />} />
-          <Route path="/kb-portfolio/projects" element={<Projects />} />
-          <Route path="/kb-portfolio/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* 404 page for incorrect link - Unfortunately not working correctly on gh-pages*/}
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
