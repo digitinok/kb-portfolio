@@ -5,9 +5,9 @@ import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
 
 
 function App() {
@@ -25,6 +25,8 @@ function App() {
           <Route path="/kb-portfolio" element={<Home />} />
           <Route path="/kb-portfolio/projects" element={<Projects />} />
           <Route path="/kb-portfolio/contact" element={<Contact />} />
+          <Route path="/kb-portfolio/CV.pdf" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </div>
     </Router>

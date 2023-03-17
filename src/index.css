@@ -24,3 +24,7 @@ code {
   max-height: 50%;
   justify-content: right;
 }
+
+button a {
+  text-decoration: none;
+}
