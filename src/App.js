@@ -25,7 +25,7 @@ function App() {
           <Route path="/kb-portfolio" element={<Home />} />
           <Route path="/kb-portfolio/projects" element={<Projects />} />
           <Route path="/kb-portfolio/contact" element={<Contact />} />
-          <Route path="/kb-portfolio/CV.pdf" element={<Contact />} />
+
           <Route path="*" element={<NoPage />} />
         </Routes>
       </div>

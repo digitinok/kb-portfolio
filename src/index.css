@@ -21,8 +21,9 @@ code {
 }
 
 #me {
-  max-height: 50%;
-  justify-content: right;
+  height: auto;
+  width: 200px;
+  vertical-align: right;
 }
 
 button a {

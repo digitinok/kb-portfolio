@@ -1,12 +1,13 @@
 import React from "react";
 
+
 function Contact() {
   return (
     <div>
       <h2 className="m-5">Contact Me</h2>
       <p>Feel free to contact me via email.  
         You could check out my profiles on LinkedIn and GitHub or download
-         my  <a href="./assets/CV.pdf"><b>CV</b></a>!
+         my  <a href="https://drive.google.com/file/d/1c1oPIudzItG8Jv365rSu1aNB3Q-bwlb9/view?usp=share_link" target="_blank" rel="noreferrer"><b>CV</b></a>!
       </p>
       <ul>
         <li className="list-inline-item mr-3">
