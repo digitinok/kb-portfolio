@@ -1,7 +1,6 @@
 import React, { Component }  from "react";
 import Card from "../components/Card";
 import projects from "../projects.json";
-//import "../assets/TravelBuddy.png";
 
 class Projects extends Component {
   // Setting this.state.projects to the projects json array
@@ -19,8 +18,8 @@ class Projects extends Component {
   render() {
   return (
     <div>
-      <h2 className="m-5">Projects I have done</h2>
-      <div className="Container">
+      <h2 className="m-5">List of Projects</h2>
+      <div className="container">
         <div className="row justify-content-center">
           {this.state.projects.map(project => (
             <Card

@@ -19,3 +19,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#me {
+  max-height: 50%;
+  justify-content: right;
+}

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <ul className="nav nav-tabs bg-dark text-align-center">
+    <ul className="nav nav-tabs bg-dark justify-content-center">
       <li className="nav-item">
         <NavLink
           to="/kb-portfolio"

@@ -3,25 +3,17 @@ import "./style.css";
 
 function Card(props) {
   return (
-    <div className="card col-lg-3 col-md-5 col-sm-11">
-      <div className="img-container">
-        <img alt={props.alt} src={require("../../assets/TravelBuddy.png")} /> 
-      </div>
-      <div className="content">
-        <ul>
-        <li>
-            <strong>{props.name}</strong> 
-          </li>          
-          <li>
-            {props.description}
-          </li>
-          <li>
-            <strong>Repository: </strong> <a href={props.repository}>{props.repository}</a>
-          </li>
-          <li>
-            <strong>Deployed Page: </strong><a href={props.link}>{props.link}</a> 
-          </li>
-        </ul>
+    <div className="card col-xxl-3 col-lg-5 col-md-11">
+      <img 
+        className="card-img-top" 
+        alt={props.alt} 
+        src={props.image} /> 
+      <div className="card-body">
+        <hr></hr>
+        <h4 className="card-title">{props.name}</h4>
+        <p className="card-text">{props.description}</p>
+        <a href={props.repository} className="btn btn-dark m-2">Repository</a>
+        <a href={props.link} className="btn btn-dark m-2">Deployed Page</a>
       </div>
     </div>
   );
