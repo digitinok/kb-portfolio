@@ -31,7 +31,7 @@ The portfolio is created with react.  Just run `npm install` to install all the 
 
 ## Usage
 
-After the website is build running `npm run build`, it is deployed so anyone interested in the projects I worked on can view the portfolio webpage in the web browser.
+After the website is build and deployed running `npm run deploy`, the projects I worked on are visible to anyone interested on portfolio webpage in the web browser.
 
 
 ![alt screenshot of sample webpage](public/assets/KB-Portfolio-screenshot.png)
