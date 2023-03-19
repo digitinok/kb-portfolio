@@ -1,15 +1,16 @@
 import React from "react";
+import Form from "../components/Form"
 
 
 function Contact() {
   return (
     <div>
       <h2 className="m-5">Contact Me</h2>
-      <p>Feel free to contact me via email.  
+      <p className="mx-5">Feel free to contact me via email.  
         You could check out my profiles on LinkedIn and GitHub or download
          my  <a href="https://drive.google.com/file/d/1c1oPIudzItG8Jv365rSu1aNB3Q-bwlb9/view?usp=share_link" target="_blank" rel="noreferrer"><b>CV</b></a>!
       </p>
-      <ul>
+      <ul className="mx-5">
         <li className="list-inline-item mr-3">
           <a href="https://github.com/digitinok" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-github fa-2x fa-fw"></i>
@@ -31,7 +32,8 @@ function Contact() {
           </a>
         </li>
       </ul>
-  
+      {/*   Contact Input form */}
+      <Form />
   
     </div>
   );

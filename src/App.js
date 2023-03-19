@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-// import NoPage from "./pages/NoPage";
+import NoPage from "./pages/NoPage";
 import Footer from "./components/Footer";
 
 
@@ -27,7 +27,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           {/* 404 page for incorrect link - Unfortunately not working correctly on gh-pages*/}
-          {/*<Route path="*" element={<NoPage />} />*/}
+          <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
       </div>
