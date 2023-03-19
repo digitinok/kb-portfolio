@@ -43,8 +43,8 @@ class Form extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div>
-        <form className="form">
+      <div className="row justify-content-center">
+        <form className="form col-11 col-lg-6">
           <input
             value={this.state.name}
             name="name"
