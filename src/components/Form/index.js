@@ -65,7 +65,7 @@ class Form extends Component {
             onChange={this.handleInputChange}
             placeholder="Your Message:"
           ></textarea>
-          <button  type="submit" onClick={this.handleFormSubmit}>Submit</button>
+          <button className="btn btn-dark m-2" type="submit" onClick={this.handleFormSubmit}>Submit</button>
         </form>
       </div>
     );

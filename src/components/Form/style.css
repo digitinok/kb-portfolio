@@ -15,3 +15,8 @@
   margin-bottom: 5px;
   width: 100%;
 }
+
+.form button{
+  margin-top: 5px;
+  margin-bottom: 25px!important;
+}

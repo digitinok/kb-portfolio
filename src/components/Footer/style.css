@@ -1,6 +1,6 @@
 footer {
     background-color: #053555;
-    margin: auto;
+    margin: 0 auto;
     padding: 5px;
     position: fixed;
     bottom: 0px;
@@ -9,4 +9,5 @@ footer {
 footer p {
     text-align: center;
     color: #f3e6e5;
+    margin: 0 auto;
 }
