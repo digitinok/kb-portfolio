@@ -43,30 +43,32 @@ class Form extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div className="row justify-content-center">
-        <form className="form col-11 col-lg-6">
-          <input
-            value={this.state.name}
-            name="name"
-            onChange={this.handleInputChange}
-            type="text"
-            placeholder="Your Name"
-          />
-          <input
-            value={this.state.email}
-            name="email"
-            onChange={this.handleInputChange}
-            type="email"
-            placeholder="abc@example.com"
-          />
-          <textarea
-            value={this.state.message}
-            name="message"
-            onChange={this.handleInputChange}
-            placeholder="Your Message:"
-          ></textarea>
-          <button className="btn btn-dark m-2" type="submit" onClick={this.handleFormSubmit}>Submit</button>
-        </form>
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <form className="form col-11 col-lg-6">
+            <input
+              value={this.state.name}
+              name="name"
+              onChange={this.handleInputChange}
+              type="text"
+              placeholder="Your Name"
+            />
+            <input
+              value={this.state.email}
+              name="email"
+              onChange={this.handleInputChange}
+              type="email"
+              placeholder="abc@example.com"
+            />
+            <textarea
+              value={this.state.message}
+              name="message"
+              onChange={this.handleInputChange}
+              placeholder="Your Message:"
+            ></textarea>
+            <button className="btn btn-dark m-2" type="submit" onClick={this.handleFormSubmit}>Submit</button>
+          </form>
+        </div>
       </div>
     );
   }
